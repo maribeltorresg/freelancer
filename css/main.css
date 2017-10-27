@@ -92,10 +92,20 @@ header figure {
     width: 60px;
     margin: 25px auto 30px;
 }
+#portfolio .container {
+    overflow: auto;
+}
 .box {
     float: left;
-    width: 400px;
+    margin: 25px;
+    width: 350px;
 }
 .box img {
     width: 100%;
+}
+.box a {
+    display: block;
+}
+.box a:hover {
+    background-color: #18bc9c;
 }
