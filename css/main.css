@@ -1,3 +1,101 @@
 /*
  * Estilos de tu proyecto
  */
+ * {
+     box-sizing: border-box;
+     margin: 0;
+ }
+ /* Estilos barra de navegación */
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+.text-uppercase {
+    text-transform: uppercase; 
+}
+nav {
+    background-color: #2c3e50;
+    font-family: 'Montserrat'; 
+    font-weight: 700;
+    overflow: auto;
+    padding: 25px 100px;
+    position: relative;
+}
+nav .nav-brand {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.nav-right {
+    right: 30%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.nav-right ul {
+    list-style: none;
+    text-decoration: none;
+}
+.nav-right ul li {
+    display: inline-block;
+    font-size: 14px;
+}
+.nav-right ul li a {
+    color: #fff;
+    margin: 5px;
+    text-decoration: none;
+}
+.nav-right ul li a:hover {
+    color: #18bc9c;
+}
+/* Estilos header */
+header {
+    background-color: #18bc9c;
+    padding: 100px 0 100px; 
+}
+header figure {
+    text-align: center;
+}
+.text-intro {
+    text-align: center;
+}
+.text-intro .name {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+.star-white {
+    border: 2px solid #fff;
+    width: 60px;
+    margin: 25px auto 30px;
+}
+.text-intro p {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 300;
+    font-family: 'Lato';
+}
+/* Estilos portfolio */
+#portfolio h2 {
+    font-size: 50px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+#portfolio .star-blue {
+    border: 2px solid #2c3e50;
+    width: 60px;
+    margin: 25px auto 30px;
+}
+.box {
+    float: left;
+    width: 400px;
+}
+.box img {
+    width: 100%;
+}
