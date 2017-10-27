@@ -80,8 +80,12 @@ header figure {
     font-family: 'Lato';
 }
 /* Estilos portfolio */
+#portfolio {
+    font-family: 'Lato';
+    padding: 100px 0;
+}
 #portfolio h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Montserrat';
     font-weight: 700;
     text-align: center;
@@ -104,8 +108,37 @@ header figure {
     width: 100%;
 }
 .box a {
-    display: block;
+    display: inline-block;
 }
 .box a:hover {
     background-color: #18bc9c;
+}
+/* Estilos para la section about */
+#about .container {
+    overflow: auto;
+}
+#about {
+    background-color: #18bc9c;
+    font-family: 'Montserrat';
+    padding: 100px 0;
+}
+#about h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+#about .box {
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    width: 380px;
+}
+.text-left {
+    margin-left: 236px;
+}
+#about .boton {
+    width: 80px;
+    height: 80px;
+    outline: 1px solid red;
 }
