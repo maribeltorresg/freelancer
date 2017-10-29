@@ -27,6 +27,7 @@ nav .nav-brand {
     margin-left: 30px;
     text-decoration: none;
 }
+/* Lista de navegación */
 .nav-right {
     right: 30%;
     position: absolute;
@@ -93,7 +94,7 @@ header figure {
     font-weight: 300;
     font-family: 'Lato';
 }
-/* Estilos portfolio */
+/* Estilos portafolio */
 #portfolio {
     font-family: 'Lato';
     padding: 100px 0;
