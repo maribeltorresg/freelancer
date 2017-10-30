@@ -80,19 +80,20 @@ header figure {
     font-size: 30px;
     color: #fff;
     position: relative;
-    top: 5px;
+    top: 8px;
     left: 2px;
+    margin: 3px;
 }
 .star::after {
     content: "";
-    width: 110px;
+    width: 100px;
     height: 5px;
     display: inline-block;
     background-color: #fff;
 }
 .star::before {
     content: "";
-    width: 110px;
+    width: 100px;
     height: 5px;
     display: inline-block;
     background-color: #fff;
