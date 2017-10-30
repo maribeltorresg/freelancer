@@ -139,6 +139,7 @@ header figure {
     float: left;
     margin: 25px;
     width: 350px;
+    position: relative;
 }
 .box img {
     display: block;
@@ -153,6 +154,19 @@ header figure {
 .box a:hover {
     background-color: #18bc9c;
 }
+.box .zoom {
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 41%;
+    left: 48%;
+    color: transparent;
+}
+/*
+.box .zoom:hover {
+    color: #fff;
+    z-index: 3;
+}*/
 /* Estilos para la section about */
 #about .container {
     overflow: auto;
@@ -242,6 +256,7 @@ form  input {
 form input:last-child {
     padding-bottom: 150px;
 }
+/*Estilos botón de enviar*/
 #contact button {
     background-color: #18bc9c;
     border-radius: 5px;
@@ -250,6 +265,9 @@ form input:last-child {
     font-size: 18px;
     margin: 40px 0 0 177px;
     padding: 12px 22px;
+}
+#contact button:hover {
+    background-color: #18bc6c;
 }
 /* Estilos footer  */
 footer {
@@ -270,7 +288,8 @@ footer .box-footer {
     text-align: center;
 }
 .box-footer h4 {
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 26px;
     margin-bottom: 30px;
     text-transform: uppercase;
 }
