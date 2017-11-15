@@ -11,6 +11,15 @@
     <title>Freelancer</title>
 </head>
 <body>
+    <!-- popup -->
+    <div id="popup">
+        <h2 id="popup-title"></h2>
+        <div class="star">
+            <span class="fa fa-star"></span>
+        </div>
+        <img id="popup-img" />
+        <div id="popup-description"></div>
+    </div>
     <!-- Barra de navegación -->
     <nav>
         <div class="container text-uppercase">
@@ -58,18 +67,25 @@
                 <span class="fa fa-star"></span>
             </div>
             <!-- Imagenes -->
-            <div class="box">
+            <div class="box"
+              data-title="PROJECT TITLE"
+              data-img="assets/images/portfolio/cabin.png"
+              data-description="Use this area of the page to describe your project. 
+              The icon above is part of a free icon set by Flat Icons. On their website, 
+              you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!">
+                
                 <a href="#portfolioModal1">
                     <div class="zoom">
-                        <i class="fa fa-search"></i>
+                        <i class="fa fa-search-plus"></i>
                     </div>
                  <img src="assets/images/portfolio/cabin.png" alt="cabin">
                 </a>
+
             </div>
             <div class="box">
                 <a href="#portfolioModal2">
                     <div class="zoom">
-                        <i class="fa fa-search"></i>
+                        <i class="fa fa-search-plus"></i>
                     </div>
                     <img src="assets/images/portfolio/cake.png" alt="cake">
                 </a>
@@ -77,7 +93,7 @@
             <div class="box">
                 <a href="#portfolioModal3">
                     <div class="zoom">
-                        <i class="fa fa-search"></i>
+                        <i class="fa fa-search-plus"></i>
                     </div>
                     <img src="assets/images/portfolio/circus.png" alt="circus">
                 </a>
@@ -85,7 +101,7 @@
             <div class="box">
                 <a href="#portfolioModal4">
                     <div class="zoom">
-                        <i class="fa fa-search"></i>
+                        <i class="fa fa-search-plus"></i>
                     </div>
                     <img src="assets/images/portfolio/game.png" alt="game">
                 </a>
@@ -93,7 +109,7 @@
             <div class="box">
                 <a href="#portfolioModal5">
                     <div class="zoom">
-                        <i class="fa fa-search"></i>
+                        <i class="fa fa-search-plus"></i>
                     </div>
                     <img src="assets/images/portfolio/safe.png" alt="safe">
                 </a>
@@ -101,7 +117,7 @@
             <div class="box">
                 <a href="#portfolioModal6">
                     <div class="zoom">
-                        <i class="fa fa-search"></i>
+                        <i class="fa fa-search-plus"></i>
                     </div>
                     <img src="assets/images/portfolio/submarine.png" alt="submarine">
                 </a>
@@ -177,5 +193,6 @@
         </div>    
         <p class="copyright">Copyright © Your Website 2017</p>
     </footer>
+    <script src="js/app.js"></script>
 </body>
 </html>
